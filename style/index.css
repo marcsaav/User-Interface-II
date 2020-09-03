@@ -72,6 +72,7 @@ body {
     background-color: #020B61;
     color: white;
     margin-bottom: 2%;
+    border-bottom: 4px solid black;
 }
 
 h1 {
@@ -90,6 +91,75 @@ h1 {
     background-color: #D76F6F;
     color: #6A2D00;
     text-decoration: none;
-
 }
+/* Header End */
+/* Overview Start*/
+
+#overview {
+    display: flex;
+    justify-content: space-around;
+}
+
+#overview img {
+    width: 49%;
+}
+
+#overview .myself {
+    width:50%;
+}
+
+#overview .myself h2 {
+    font-size: 2.5rem;
+    text-decoration: underline solid #020B61;
+}
+
+button {
+    margin:2% 0;
+    border: 2px solid black;
+    background-color: white;
+    padding: 1%;
+    transition: 1s;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+}
+/* Overview End */
+/* Sites Start */
+
+#projects {
+    margin:2.5% 0;
+}
+
+.sites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sites.two {
+    margin:4% 0;
+}
+
+.site {
+    text-align:center;
+}
+/* Sites End */
+/* Footer Start */
+
+#foot {
+    background-color:#020B61;
+    text-align: center;
+    padding-top: 3.5%;
+}
+
+#foot h2 {
+    font-size: 2.5rem;
+    color:white;
+}
+
+#foot button {
+    margin-top:1%;
+}
+/* Footer End */
 
