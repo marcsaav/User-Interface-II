@@ -155,6 +155,22 @@ h1 {
 #foot button {
     margin-top:1%;
 }
+
+#foot nav {
+    display:flex;
+    justify-content:space-around;
+}
+
+#foot nav a {
+    margin:2% 2%;
+    padding: 1%;
+    width:22%;
+    transition: 1s;
+}
+
+#foot nav a img {
+    height:5vh;
+}
 /* Footer End */
 /* Buttons and Animations*/
 button {
@@ -172,4 +188,8 @@ button:hover {
 
 #head nav a:hover {
     border: 2px dotted white;
+}
+
+#foot nav a:hover {
+    background-color:white;
 }
