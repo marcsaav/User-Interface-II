@@ -1,1 +1,195 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:ital,wght@1,600&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* General Styles */
+* {
+    box-sizing:border-box;
+    max-width:100%;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size:1.6rem;
+    line-height:1.5;
+}
+/* General Styles End */
+/* Header Content */
+#head {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding: 2%;
+    background-color: #020B61;
+    color: white;
+    margin-bottom: 2%;
+    border-bottom: 4px solid black;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size:5rem;
+}
+
+#head nav {
+    display:flex;
+    margin-left: 2%;
+}
+
+#head nav a {
+    margin: 2% 0;
+    padding: .5%;
+    border: 2px solid #8D0606;
+    background-color: #D76F6F;
+    color: #6A2D00;
+    text-decoration: none;
+    transition: 1s;
+}
+/* Header End */
+/* Overview Start*/
+
+#overview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.overviewImg {
+    width: 48%;
+}
+
+.myself {
+    width:48%;
+}
+
+.myself h2 {
+    font-size: 2.5rem;
+    text-decoration: underline solid #020B61;
+}
+
+
+/* Overview End */
+/* Sites Start */
+
+#projects {
+    margin:2.5% 0;
+}
+
+.sites {
+    display: flex;
+    justify-content: space-between;
+    margin:0 1%;
+}
+
+.two {
+    margin:4% 1%;
+}
+
+.site {
+    text-align:center;
+    width: 22.75%;
+}
+/* Sites End */
+/* Footer Start */
+
+#foot {
+    background-color:#020B61;
+    text-align: center;
+    padding-top: 3.5%;
+}
+
+#foot h2 {
+    font-size: 2.5rem;
+    color:white;
+}
+
+#foot button {
+    margin-top:1%;
+}
+
+#foot nav {
+    display:flex;
+    justify-content:space-around;
+}
+
+#foot nav a {
+    margin:2% 2%;
+    padding: 1%;
+    width:22%;
+    transition: 1s;
+}
+
+#foot nav a img {
+    height:5vh;
+}
+/* Footer End */
+/* Buttons and Animations*/
+button {
+    margin:2% 0;
+    border: 2px solid black;
+    background-color: white;
+    padding: 1%;
+    transition: 1s;
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+}
+
+#head nav a:hover {
+    border: 2px dotted white;
+}
+
+#foot nav a:hover {
+    background-color:white;
+}
