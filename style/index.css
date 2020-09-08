@@ -195,10 +195,6 @@ button:hover {
 }
 
 @media (max-width:800px) {
-
-}
-
-@media (max-width:500px) {
     #head {
         align-items:center;
         background-color: white;
@@ -208,6 +204,10 @@ button:hover {
     h1 {
         color: black;
     }
+}
+
+@media (max-width:500px) {
+
     #head nav {
         flex-direction:column;
     }
