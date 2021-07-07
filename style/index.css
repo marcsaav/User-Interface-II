@@ -193,3 +193,55 @@ button:hover {
 #foot nav a:hover {
     background-color:white;
 }
+
+@media (max-width:800px) {
+    #head {
+        align-items:center;
+        background-color: white;
+        border-bottom:none;
+    }
+
+    h1 {
+        color: black;
+    }
+}
+
+@media (max-width:500px) {
+
+    #head nav {
+        flex-direction:column;
+    }
+    #head nav a {
+        margin:0;
+    }
+    /* Overview */
+
+    #overview {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .myself {
+        text-align: center;
+    }
+
+    /* Projects */
+
+    #projects {
+        display:flex;
+    }
+
+    .sites {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .two {
+        margin:0 1%;
+    }
+
+    .site {
+        text-align:center;
+        width: 49%;
+    }
+}
